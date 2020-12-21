@@ -4,7 +4,7 @@ function GameManager(size, InputManager, Actuator, ScoreManager) {
   this.scoreManager = new ScoreManager;
   this.actuator     = new Actuator;
 
-  this.startTiles   = 2;
+  this.startTiles   = 1;
 
   this.inputManager.on("move", this.move.bind(this));
   this.inputManager.on("restart", this.restart.bind(this));
@@ -59,7 +59,7 @@ GameManager.prototype.addStartTiles = function () {
 // Adds a tile in a random position
 GameManager.prototype.addRandomTile = function () {
   if (this.grid.cellsAvailable()) {
-    var value = Math.random() < 0.9 ? 2 : 4;
+    var value = Math.random() < 0.9999998 ? Math.random() < 0.99996 ? Math.random() < 0.9996 ? Math.random() < 0.9985 ? 1 : 2 : Math.random() < 0.8 ? 3 : 4 : Math.random() < 0.95 ? Math.random() < 0.875 ? 5 : 6 : Math.random() < 0.8 ? 7 : 8 : Math.random() < 0.95 ? Math.random() < 0.875 ? Math.random() < 0.5 ? 9 : 9 : Math.random() < 0.5 ? 10 : 10 : Math.random() < 0.9 ? Math.random() < 0.5 ? 11 : 11 : Math.random() < 0.999 ? 33 : 70;
     var tile = new Tile(this.grid.randomAvailableCell(), value);
 
     this.grid.insertTile(tile);
@@ -126,9 +126,8 @@ GameManager.prototype.move = function (direction) {
         var next      = self.grid.cellContent(positions.next);
 
         // Only one merger per row traversal?
-        if (next && next.value === tile.value && !next.mergedFrom) {
-          var multiply = Math.random() < 0.986 ? 2 : 2;
-          var merged = new Tile(positions.next, tile.value * multiply);
+        if (next && next.value === tile.value && !next.mergedFrom) { 
+          var merged = new Tile(positions.next, tile.value + 0);
           merged.mergedFrom = [tile, next];
 
           self.grid.insertTile(merged);
@@ -140,8 +139,8 @@ GameManager.prototype.move = function (direction) {
           // Update the score
           self.score += merged.value;
 
-          // The mighty 2048 tile
-          if (merged.value === 2048) self.won = true;
+          // The mighty 10 tile
+          if (merged.value === 10) self.won = true;
         } else {
           self.moveTile(tile, positions.farthest);
         }
