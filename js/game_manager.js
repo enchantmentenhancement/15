@@ -60,6 +60,8 @@ GameManager.prototype.addStartTiles = function () {
 GameManager.prototype.addRandomTile = function () {
   if (this.grid.cellsAvailable()) {
     var value = Math.random() < 0.999999999999 ? Math.random() < 0.999999999 ? Math.random() < 0.999999995 ? Math.random() < 0.99999999 ? Math.random() < 0.9999999875 ? Math.random() < 0.9999999875 ? Math.random() < 0.99999998444444444 ? Math.random() < 0.99999998444444444 ? Math.random() < 0.99999998333333333 ? Math.random() < 0.99999998 ? Math.random() < 0.999999975 ? Math.random() < 0.999999966666666 ? Math.random() < 0.99999996 ? Math.random() < 0.99999995 ? Math.random() < 0.999999166666666 ? Math.random() < 0.9999999 ? Math.random() < 0.9999998 ? Math.random() < 0.9999995 ? Math.random() < 0.999999 ? Math.random() < 0.999998 ? Math.random() < 0.999995 ? Math.random() < 0.99999 ? Math.random() < 0.999975 ? Math.random() < 0.999933333333333333 ? Math.random() < 0.999875 ? Math.random() < 0.9995 ? Math.random() < 0.9984 ? 1 : 2 : 3 : 4 : 5 : 6 : 7 : 8 : 9 : 10 : 11 : 12 : 33 : 13 : 14 : 70 : 15 : 16 : 56 : 79 : 71 : 72 : 76 : 77 : 63 : 88 : 10000 : 17;
+    var tile = new Tile(this.grid.randomAvailableCell(), value);
+    
     this.grid.insertTile(tile);
   }
 };
