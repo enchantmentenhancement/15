@@ -604,6 +604,24 @@ hr {
   .tile.tile-23 .tile-inner {
     color: #f9f6f2;
     background: #890449; }
+  .tile.tile-29 .tile-inner {
+    color: #da0c0c;
+    background: #d7d7d7; }
+  .tile.tile-30 .tile-inner {
+    color: #f2e21f;
+    background: #d7d7d7; }
+  .tile.tile-69 .tile-inner {
+    color: #8d6d3c;
+    background: #828910; }
+  .tile.tile-27 .tile-inner {
+    color: #f9f6f2;
+    background: #b9f3a3; }
+  .tile.tile-46 .tile-inner {
+    color: #cfcfcf;
+    background: #70ee40; }
+  .tile.tile-52 .tile-inner {
+    color: #ece09a;
+    background: #34129f; }
   .tile.tile-42 .tile-inner {
     color: #241408;
     background: #517ae7; }
