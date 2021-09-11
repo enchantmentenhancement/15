@@ -561,6 +561,12 @@ hr {
   .tile.tile--1 .tile-inner {
     color: #f9f6f2;
     background: #5b2b21; }
+  .tile.tile--2 .tile-inner {
+    color: #f9f6f2;
+    background: #ffc900; }
+  .tile.tile--5 .tile-inner {
+    color: #f9f6f2;
+    background: #00aeff; }
   .tile.tile-14 .tile-inner {
     color: #f9f6f2;
     background: #7e7143; }
@@ -570,6 +576,9 @@ hr {
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
     background: #f387d9; }
+  .tile.tile-17 .tile-inner {
+    color: #f9f6f2;
+    background: #a47615; }
   .tile.tile-18 .tile-inner {
     color: #f9f6f2;
     background: #a9bedf; }
@@ -582,6 +591,12 @@ hr {
   .tile.tile-26 .tile-inner {
     color: #f9f6f2;
     background: #d4ff00; }
+  .tile.tile-27 .tile-inner {
+    color: #f9f6f2;
+    background: #05bda1; }
+  .tile.tile-28 .tile-inner {
+    color: #f9f6f2;
+    background: #775899; }
   .tile.tile-45 .tile-inner {
     color: #e6e31f;
     background: #96d84d; }
@@ -616,7 +631,10 @@ hr {
   .tile.tile-69 .tile-inner {
     color: #ca9871;
     background: #828910; }
-  .tile.tile-27 .tile-inner {
+  .tile.tile-80 .tile-inner {
+    color: #f2a44c;
+    background: #54636a; }
+  .tile.tile-31 .tile-inner {
     color: #f9f6f2;
     background: #b9f3a3; }
   .tile.tile-46 .tile-inner {
@@ -646,15 +664,24 @@ hr {
   .tile.tile-33 .tile-inner {
     color: #e74b25;
     background: #6df80a; }
+  .tile.tile-32 .tile-inner {
+    color: #e72525;
+    background: #0af86f; }
   .tile.tile-34 .tile-inner {
     color: #e75a25;
     background: #a5f80a; }
-  .tile.tile-17 .tile-inner {
+  .tile.tile-97 .tile-inner {
     color: #cdc1b4;
     background: #cdc1b4; }
   .tile.tile-70 .tile-inner {
     color: #f9f809;
     background: #949b9c; }
+  .tile.tile-54 .tile-inner {
+    color: #85faf1;
+    background: #f0fcfb; }
+  .tile.tile-99 .tile-inner {
+    color: #acc4ac;
+    background: #a1c99e; }
   .tile.tile-56 .tile-inner {
     color: #9c019a;
     background: #80e2ff; }
@@ -702,6 +729,9 @@ hr {
     background: #f1f0f3; }
   .tile.tile-95 .tile-inner {
     color: #838383;
+    background: #f1f0f3; }
+  .tile.tile-96 .tile-inner {
+    color: #b6ff00;
     background: #f1f0f3; }
   .tile.tile-5000 .tile-inner {
     color: #d1ab03;
