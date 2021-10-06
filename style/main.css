@@ -633,6 +633,15 @@ hr {
   .tile.tile-28 .tile-inner {
     color: #f9f6f2;
     background: #775899; }
+  .tile.tile-41 .tile-inner {
+    color: #f9f6f2;
+    background: #5f04c1; }
+  .tile.tile-59 .tile-inner {
+    color: #fdf73a;
+    background: #9ecfc7; }
+  .tile.tile-61 .tile-inner {
+    color: #030592;
+    background: #b66261; }
   .tile.tile-48 .tile-inner {
     color: #ffc500;
     background: #217400; }
