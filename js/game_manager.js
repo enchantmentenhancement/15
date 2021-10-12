@@ -137,7 +137,7 @@ GameManager.prototype.move = function (direction) {
           tile.updatePosition(positions.next);
 
           // Update the score
-          self.score += merged.value;
+          self.score += 1;
 
           // The mighty 10 tile
           if (merged.value === 10) self.won = true;
