@@ -688,6 +688,12 @@ hr {
   .tile.tile-21 .tile-inner {
     color: #f9f6f2;
     background: #b73f19; }
+  .tile.tile-75 .tile-inner {
+    color: #dbd213;
+    background: #7c89a4; }
+  .tile.tile-81 .tile-inner {
+    color: #f9f6f2;
+    background: #00ff64; }
   .tile.tile-22 .tile-inner {
     color: #f9f6f2;
     background: #19a1b7; }
