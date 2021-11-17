@@ -694,9 +694,21 @@ hr {
   .tile.tile-44 .tile-inner {
     color: #1a77bb;
     background: #262c30; }
-  .tile.tile-100 .tile-inner {
+  .tile.tile-108 .tile-inner {
     color: #ff0000;
     background: #d04b4b;
+    font-size: 26px; }
+  .tile.tile-100 .tile-inner {
+    color: #ffffff;
+    background: #7e7114;
+    font-size: 26px; }
+  .tile.tile-161 .tile-inner {
+    color: #5dff00;
+    background: #61222a;
+    font-size: 26px; }
+  .tile.tile-162 .tile-inner {
+    color: #61222a;
+    background: #5dff00;
     font-size: 26px; }
   .tile.tile-21 .tile-inner {
     color: #f9f6f2;
