@@ -598,9 +598,12 @@ hr {
   .tile.tile--1 .tile-inner {
     color: #f9f6f2;
     background: #5b2b21; }
-  .tile.tile--2 .tile-inner {
+  .tile.tile-29 .tile-inner {
     color: #f9f6f2;
     background: #ffc900; }
+  .tile.tile-30 .tile-inner {
+    color: #f9f6f2;
+    background: #8fdc47; }
   .tile.tile--5 .tile-inner {
     color: #f9f6f2;
     background: #00aeff; }
@@ -725,10 +728,10 @@ hr {
   .tile.tile-23 .tile-inner {
     color: #f9f6f2;
     background: #890449; }
-  .tile.tile-29 .tile-inner {
+  .tile.tile-129 .tile-inner {
     color: #da0c0c;
     background: #d7d7d7; }
-  .tile.tile-30 .tile-inner {
+  .tile.tile-130 .tile-inner {
     color: #f2e21f;
     background: #d7d7d7; }
   .tile.tile-69 .tile-inner {
