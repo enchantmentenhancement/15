@@ -1,32 +1,11 @@
-# 16384
+# 10
 
-[Play 2048](http://gabrielecirulli.github.io/2048/)
-[Play 16384](http://annimon.github.io/16384/)
+10 is a probability based game forked from 2048. You start with a 1 (probably) and you have to fill up boards by holding down the arrow keys.
 
-A small clone of [1024](https://play.google.com/store/apps/details?id=com.veewo.a1024), based on [Saming's 2048](http://saming.fr/p/2048/) (also a clone).
+The objective of the game is to get two 10 tiles and merge them together.
 
-Made just for fun.
+The game spawns all the tiles from 1-10 with increasing rarity. However, there are MANY other tiles the game can spawn, most of which are very rare. The most notable ones are 49 (the easiest one to get, it is between 9 and 10 in rarity), 11-16 (rarer 9 realms) and 33 (beak).
 
-### Contributions
+As far as I am aware, the rarest tile that has ever been had is 26, sitting at 1 in every 700000000 (700 million) tiles.
 
- - [TimPetricola](https://github.com/TimPetricola) added best score storage
- - [chrisprice](https://github.com/chrisprice) added custom code for swipe handling on mobile
-
-Many thanks to [rayhaanj](https://github.com/rayhaanj), [Mechazawa](https://github.com/Mechazawa), [grant](https://github.com/grant), [remram44](https://github.com/remram44) and [ghoullier](https://github.com/ghoullier) for the many other good contributions.
-
-### Screenshot
-
-[![Screenshot](http://pictures.gabrielecirulli.com/2048-20140309-234100.png)](http://pictures.gabrielecirulli.com/2048-20140309-234100.png)
-
-That screenshot is fake, by the way. I never reached 2048 :smile:
-
-## Contributing
-Changes and improvements are more than welcome! Feel free to fork and open a pull request. Please make your changes in a specific branch and request to pull into `master`! If you can, please make sure the game fully works before sending the PR, as that will help speed up the process.
-
-You can find the same information in the [contributing guide.](https://github.com/gabrielecirulli/2048/blob/master/CONTRIBUTING.md)
-
-## License
-2048 is licensed under the [MIT license.](https://github.com/gabrielecirulli/2048/blob/master/LICENSE.txt)
-
-## Donations
-I made this in my spare time, and it's hosted on GitHub (which means I don't have any hosting costs), but if you enjoyed the game and feel like buying me coffee, you can donate at my BTC address: `1Ec6onfsQmoP9kkL3zkpB6c5sA4PVcXU2i`. Thank you very much!
+Good luck, luck is all you need!
