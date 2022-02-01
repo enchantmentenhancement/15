@@ -155,11 +155,11 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   var tweet = document.createElement("a");
   tweet.classList.add("twitter-share-button");
   tweet.setAttribute("href", "https://twitter.com/share");
-  tweet.setAttribute("data-via", "herdnaxy");
+  tweet.setAttribute("data-via", "fluff");
   tweet.textContent = "Tweet";
 
-  var text = "I scored " + this.score + " points at 2048, a game where you " +
-             "join numbers to score high! #2048game";
+  var text = "My score ended up as " + this.score + " this on 10, a game where you " +
+             "join numbers to get 10s! #10game";
   tweet.setAttribute("data-text", text);
 
   return tweet;
