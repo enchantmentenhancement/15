@@ -684,6 +684,10 @@ hr {
     color: #2cffd9;
     background: #fefe30;
     font-size: 26px; }
+  .tile.tile-140 .tile-inner {
+    color: #d36e34;
+    background: #713b1c;
+    font-size: 26px; }
   .tile.tile-121 .tile-inner {
     color: #4aff29;
     background: #fc519a;
