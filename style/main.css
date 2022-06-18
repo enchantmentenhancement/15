@@ -870,6 +870,14 @@ hr {
     color: #31b03a;
     background: #3167b0;
     font-size: 26px; }
+  .tile.tile-106 .tile-inner {
+    color: #f6e80a;
+    background: #faffff;
+    font-size: 26px; }
+  .tile.tile-145 .tile-inner {
+    color: #f6e80a;
+    background: #369a00;
+    font-size: 26px; }
   .tile.tile-69 .tile-inner {
     color: #ca9871;
     background: #828910; }
