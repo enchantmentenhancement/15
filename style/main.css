@@ -970,7 +970,7 @@ hr {
     background: #7c89a4; }
   .tile.tile-81 .tile-inner {
     color: #f9f6f2;
-    background: #00ff64; }
+    background: #52ff5a; }
   .tile.tile-22 .tile-inner {
     color: #f9f6f2;
     background: #19a1b7; }
@@ -1107,10 +1107,12 @@ hr {
     background: #cfea84; }
   .tile.tile-120 .tile-inner {
     color: #f9f6f2;
-    background: #3d611f; }
+    background: #3d611f;
+    font-size: 28px; }
   .tile.tile-125 .tile-inner {
     color: #f9f6f2;
-    background: #4c1ade; }
+    background: #4c1ade;
+    font-size: 28px; }
   .tile.tile-40 .tile-inner {
     color: #ff0000;
     background: #fff890; }
