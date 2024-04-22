@@ -131,7 +131,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "You win!" : "Game over!";
+  var message = won ? "Ah! 12s have been merged!" : "Oops!";
 
   if (typeof ga !== "undefined") {
     ga("send", "event", "game", "end", type, this.score);
@@ -158,8 +158,8 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.setAttribute("data-via", "fluff");
   tweet.textContent = "Tweet";
 
-  var text = "My score ended up as " + this.score + " this on 10, a game where you " +
-             "join numbers to get 10s! #10game";
+  var text = "My score ended up as " + this.score + " this on 12, a game where you " +
+             "merge tiles to get 12s! #advyout";
   tweet.setAttribute("data-text", text);
 
   return tweet;
