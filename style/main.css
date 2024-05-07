@@ -533,6 +533,15 @@ hr {
   .tile.tile-💕 .tile-inner {
     color: #ffffff;
     background: #ffc8d2; }
+  .tile.tile-💞 .tile-inner {
+    color: #ffffff;
+    background: #a53859; }
+  .tile.tile-😉 .tile-inner {
+    color: #ffffff;
+    background: #f1d41c; }
+  .tile.tile-😍 .tile-inner {
+    color: #ffffff;
+    background: #f1ba1c; }
   .tile.tile-☕ .tile-inner {
     color: #ffffff;
     background: #dddbd1; }
@@ -656,6 +665,10 @@ hr {
   .tile.tile-82 .tile-inner {
     color: #dab196;
     background: #b6825e; }
+  .tile.tile-XXX .tile-inner {
+    color: #ff0000;
+    background: #ffffff; 
+    font-size: 45px; }
 @-webkit-keyframes appear {
   0% {
     opacity: 0;
