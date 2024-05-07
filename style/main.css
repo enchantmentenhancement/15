@@ -668,7 +668,7 @@ hr {
   .tile.tile-XXX .tile-inner {
     color: #ff0000;
     background: #ffffff; 
-    font-size: 45px; }
+    font-size: 26px; }
 @-webkit-keyframes appear {
   0% {
     opacity: 0;
