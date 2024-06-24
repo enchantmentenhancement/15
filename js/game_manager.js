@@ -59,8 +59,9 @@ GameManager.prototype.addStartTiles = function () {
 // Adds a tile in a random position
 GameManager.prototype.addRandomTile = function () {
   if (this.grid.cellsAvailable()) {
-    var value = Math.random() < 0.99999999 ? Math.random() < 0.9999999 ? Math.random() < 0.999999 ? Math.random() < 0.999998 ? Math.random() < 0.999996 ? Math.random() < 0.99999 ? Math.random() < 0.99998 ? Math.random() < 0.99996 ? Math.random() < 0.9999 ? Math.random() < 0.9996 ? Math.random() < 0.998 ? 1 : 2 : 3 : 4 : 5 : 6 : 7 : 8 : 9 : 10 : 11 : 12; 
+    var value = Math.random() < 0.99999999333333333333333333 ? Math.random() < 0.99999999 ? Math.random() < 0.99999998666666666666666666 ? Math.random() < 0.9999999791666666666666666666 ? Math.random() < 0.9999999615384615384615384 ? Math.random() < 0.99999996 ? Math.random() < 0.9999998 ? Math.random() < 0.9999995 ? Math.random() < 0.999999 ? Math.random() < 0.999998666666666666666666 ? Math.random() < 0.999998333333333333333333 ? Math.random() < 0.999998 ? Math.random() < 0.9999975 ? Math.random() < 0.99999666666666666666666 ? Math.random() < 0.999996 ? Math.random() < 0.999995 ? Math.random() < 0.99999 ? Math.random() < 0.99998666666666666666666 ? Math.random() < 0.99998 ? Math.random() < 0.99996 ? Math.random() < 0.999230769230769230769 ? 1 : 17 : 2 : 3 : 4 : 5 : 6 : 19 : 7 : 8 : 9 : 10 : 11 : 12 : 13 : 18 : 82 : 83 : 98 : 14 : 15 : 16; 
     var tile = new Tile(this.grid.randomAvailableCell(), value);
+    if (tile.value === 18) this.won = true;
     
     this.grid.insertTile(tile);
   }
@@ -139,9 +140,9 @@ GameManager.prototype.move = function (direction) {
           // Update the score
           self.score += 1;
 
-          // The mighty 12 tile
-          if (merged.value === 12) self.won = true;
-          if (merged.value === 13) self.over = true;
+          // The mighty 0.85 tile
+          if (merged.value === 18) self.won = true;
+          if (merged.value === 222) self.over = true;
         } else {
           self.moveTile(tile, positions.farthest);
         }
