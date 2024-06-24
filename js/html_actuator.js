@@ -68,6 +68,9 @@ HTMLActuator.prototype.addTile = function (tile) {
 
   inner.classList.add("tile-inner");
   inner.textContent = tile.value;
+  if (tile.value === 17) inner.textContent = "1.3";
+  if (tile.value === 18) inner.textContent = "0.85";
+  if (tile.value === 19) inner.textContent = "0.9";
 
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
@@ -131,7 +134,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "Ahh! You got some 12s!" : "X";
+  var message = won ? "0.85!" : "ap hunter...";
 
   if (typeof ga !== "undefined") {
     ga("send", "event", "game", "end", type, this.score);
@@ -155,11 +158,11 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   var tweet = document.createElement("a");
   tweet.classList.add("twitter-share-button");
   tweet.setAttribute("href", "https://twitter.com/share");
-  tweet.setAttribute("data-via", "12");
+  tweet.setAttribute("data-via", "0.85");
   tweet.textContent = "Tweet";
 
-  var text = "I spawned " + this.score + " this many tiles on 12, a game where you " +
-             "merge tiles to get 12s! #advyout";
+  var text = "I spawned " + this.score + " this many tiles on quakecraft, a game where you " +
+             "subscribe to rackals! #ilovequake";
   tweet.setAttribute("data-text", text);
 
   return tweet;
