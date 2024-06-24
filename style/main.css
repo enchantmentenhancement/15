@@ -2,8 +2,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #daecff;
-  color: #2e2e2e;
+  background: #b6cad8;
+  color: #0c1b26;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -56,7 +56,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #7f9b99;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -75,7 +75,7 @@ h1.title {
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #eee4da; }
+    color: #4888e5; }
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
@@ -83,7 +83,7 @@ h1.title {
     font-size: 25px;
     line-height: 25px;
     font-weight: bold;
-    color: rgba(119, 110, 101, 0.9);
+    color: #0000ff;
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
     -moz-animation: move-up 600ms ease-in;
@@ -104,7 +104,7 @@ p {
   line-height: 1.65; }
 
 a {
-  color: #776e65;
+  color: #8aa0a5;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
@@ -114,7 +114,7 @@ strong.important {
 
 hr {
   border: none;
-  border-bottom: 1px solid #d8d4d0;
+  border-bottom: 1px solid #d0d7d8;
   margin-top: 20px;
   margin-bottom: 30px; }
 
@@ -152,8 +152,8 @@ hr {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  background: #bbada0;
-  border-radius: 6px;
+  background: #57dfbc;
+  border-radius: 25px;
   width: 492px;
   height: 492px;
   -webkit-box-sizing: border-box;
@@ -166,7 +166,7 @@ hr {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(238, 228, 218, 0.5);
+    background: #aaaaaa;
     z-index: 100;
     text-align: center;
     -webkit-animation: fade-in 800ms ease 1200ms;
@@ -186,19 +186,19 @@ hr {
       margin-top: 59px; }
     .game-container .game-message a {
       display: inline-block;
-      background: #8f7a66;
+      background: #66848f;
       border-radius: 3px;
       padding: 0 20px;
       text-decoration: none;
-      color: #f9f6f2;
+      color: #9adcf5;
       height: 40px;
       line-height: 42px;
       margin-left: 9px; }
       .game-container .game-message a.keep-playing-button {
         display: none; }
     .game-container .game-message .score-sharing {      display: inline-block;      vertical-align: middle;      margin-left: 10px; }    .game-container .game-message.game-won {
-      background: #a9f1e3;
-      color: #f9f6f2; }
+      background: #66848f;
+      color: #9adcf5; }
       .game-container .game-message.game-won a.keep-playing-button {
         display: inline-block; }
     .game-container .game-message.game-won, .game-container .game-message.game-over {
@@ -222,8 +222,8 @@ hr {
   height: 53.25px;
   margin-right: 6.7px;
   float: left;
-  border-radius: 3px;
-  background: #cdc1b4; }
+  border-radius: 25px;
+  background: #d1f9fa; }
   .grid-cell:last-child {
     margin-right: 0; }
 
@@ -501,49 +501,72 @@ hr {
   -moz-transition-property: -moz-transform;
   transition-property: transform; }
   .tile .tile-inner {
-    border-radius: 3px;
+    border-radius: 25px;
     background: #ffffff;
-    color: #f9f6f2;
+    color: #f7fafa;
     text-align: center;
+    font-family: "Verdana";
     font-weight: bold;
     z-index: 10;
-    font-size: 30px; }
+    font-size: 23px; }
   .tile.tile-1 .tile-inner {
-    color: #ffffff;
-    background: #7cbcf9; }
+    background: #555555; }
   .tile.tile-2 .tile-inner {
-    color: #ffffff;
-    background: #7cf9b3; }
+    background: #aaaaaa; }
   .tile.tile-3 .tile-inner {
-    color: #ffffff;
-    background: #bef97c; }
+    color: #121313;
+    background: #ffffff; }
   .tile.tile-4 .tile-inner {
-    color: #ffffff;
-    background: #f9c27c; }
+    background: #00aa00; }
   .tile.tile-5 .tile-inner {
-    color: #ffffff;
-    background: #f97c8b; }
+    color: #121313;
+    background: #ffff55; }
   .tile.tile-6 .tile-inner {
-    color: #ffffff;
-    background: #e27cf9; }
+    color: #121313;
+    background: #55ff55; }
   .tile.tile-7 .tile-inner {
-    color: #ffffff;
-    background: #857cf9; }
+    color: #121313;
+    background: #5555ff; }
   .tile.tile-8 .tile-inner {
-    color: #ffffff;
-    background: #cdcdcd; }
+    color: #121313;
+    background: #55ffff; }
   .tile.tile-9 .tile-inner {
-    color: #ffffff;
-    background: #269c00; }
+    color: #121313;
+    background: #ff55ff; }
   .tile.tile-10 .tile-inner {
-    color: #ffffff;
-    background: #009c90; }
+    background: #aa00aa; }
   .tile.tile-11 .tile-inner {
-    color: #ffffff;
-    background: #eef5f5; }
+    color: #121313;
+    background: #ff5555; }
   .tile.tile-12 .tile-inner {
-    color: #ffffff;
+    background: #ffaa00; }
+  .tile.tile-13 .tile-inner {
     background: #000000; }
+  .tile.tile-14 .tile-inner {
+    background: #00aaaa; }
+  .tile.tile-15 .tile-inner {
+    background: #0000aa; }
+  .tile.tile-16 .tile-inner {
+    background: #aa0000; }
+  .tile.tile-17 .tile-inner {
+    background: #d4b5fa; }
+  .tile.tile-18 .tile-inner {
+    color: #007573;
+    background: #fae0b5; 
+    font-size: 13px; }
+  .tile.tile-19 .tile-inner {
+    color: #751000;
+    background: #b5fada; 
+    font-size: 17px; }
+  .tile.tile-82 .tile-inner {
+    color: #e7cebd;
+    background: #cd9d7c; }
+  .tile.tile-83 .tile-inner {
+    color: #ffb636;
+    background: #095b29; }
+  .tile.tile-98 .tile-inner {
+    color: #295f33;
+    background: #6cfb86; }
 
 @-webkit-keyframes appear {
   0% {
