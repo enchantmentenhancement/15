@@ -71,6 +71,43 @@ HTMLActuator.prototype.addTile = function (tile) {
   if (tile.value === 17) inner.textContent = "1.3";
   if (tile.value === 18) inner.textContent = "0.85";
   if (tile.value === 19) inner.textContent = "0.9";
+  if (tile.value === 20) inner.textContent = "9.0";
+  if (tile.value === -1) inner.textContent = " ";
+  if (tile.value === -2) inner.textContent = " ";
+  if (tile.value === -3) inner.textContent = " ";
+  if (tile.value === -4) inner.textContent = " ";
+  if (tile.value === -5) inner.textContent = " ";
+  if (tile.value === -6) inner.textContent = " ";
+  if (tile.value === -7) inner.textContent = " ";
+  if (tile.value === -8) inner.textContent = " ";
+  if (tile.value === -9) inner.textContent = " ";
+  if (tile.value === -10) inner.textContent = " ";
+  if (tile.value === -11) inner.textContent = " ";
+  if (tile.value === -12) inner.textContent = " ";
+  if (tile.value === -13) inner.textContent = " ";
+  if (tile.value === -14) inner.textContent = " ";
+  if (tile.value === -15) inner.textContent = " ";
+  if (tile.value === -16) inner.textContent = " ";
+  if (tile.value === -17) inner.textContent = " ";
+  if (tile.value === -18) inner.textContent = " ";
+  if (tile.value === -19) inner.textContent = " ";
+  if (tile.value === -20) inner.textContent = " ";
+  if (tile.value === -21) inner.textContent = " ";
+  if (tile.value === -22) inner.textContent = " ";
+  if (tile.value === -23) inner.textContent = " ";
+  if (tile.value === -24) inner.textContent = " ";
+  if (tile.value === -25) inner.textContent = " ";
+  if (tile.value === -26) inner.textContent = " ";
+  if (tile.value === -27) inner.textContent = " ";
+  if (tile.value === -28) inner.textContent = " ";
+  if (tile.value === -29) inner.textContent = " ";
+  if (tile.value === -30) inner.textContent = " ";
+  if (tile.value === -31) inner.textContent = " ";
+  if (tile.value === -32) inner.textContent = " ";
+  if (tile.value === -33) inner.textContent = " ";
+  if (tile.value === -34) inner.textContent = " ";
+  if (tile.value === -35) inner.textContent = " ";
+  if (tile.value === -36) inner.textContent = " ";
 
   if (tile.previousPosition) {
     // Make sure that the tile gets rendered in the previous position first
