@@ -560,6 +560,23 @@ hr {
   .tile.tile-20 .tile-inner {
     color: #000000;
     background: #d53232; }
+  .tile.tile-21 .tile-inner {
+    background: #fab5f6; }
+  .tile.tile-22 .tile-inner {
+    background: #fab5c8; }
+  .tile.tile-23 .tile-inner {
+    color: #000fc8;
+    background: #b5f1fa; }
+  .tile.tile-24 .tile-inner {
+    background: #bab5fa; }
+  .tile.tile-25 .tile-inner {
+    background: #b5c5fa; }
+  .tile.tile-26 .tile-inner {
+    color: #a71a9c;
+    background: #efa9a9; }
+  .tile.tile-50 .tile-inner {
+    color: #751000;
+    background: #d55d5d; }
   .tile.tile-82 .tile-inner {
     color: #e7cebd;
     background: #cd9d7c; }
