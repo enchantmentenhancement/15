@@ -922,6 +922,30 @@ hr {
     background-image: url('https://enchantmentenhancement.github.io/0.85/reyke.png'); 
     background-size: 100% auto; 
     font-size: 1px; }
+  .tile.tile--58 .tile-inner {
+    color: #ffffff;
+    background: #ffffff;
+    background-image: url('https://enchantmentenhancement.github.io/0.85/Banich.png'); 
+    background-size: 100% auto; 
+    font-size: 1px; }
+  .tile.tile--59 .tile-inner {
+    color: #ffffff;
+    background: #ffffff; 
+    background-image: url('https://enchantmentenhancement.github.io/0.85/BipedalCat.png'); 
+    background-size: 100% auto; 
+    font-size: 1px; }
+  .tile.tile--60 .tile-inner {
+    color: #ffffff;
+    background: #ffffff;
+    background-image: url('https://enchantmentenhancement.github.io/0.85/Bitcoyne.png'); 
+    background-size: 100% auto; 
+    font-size: 1px; }
+  .tile.tile--61 .tile-inner {
+    color: #ffffff;
+    background: #ffffff;
+    background-image: url('https://enchantmentenhancement.github.io/0.85/c_n.png'); 
+    background-size: 100% auto; 
+    font-size: 1px; }
 
 @-webkit-keyframes appear {
   0% {
