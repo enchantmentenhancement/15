@@ -946,6 +946,12 @@ hr {
     background-image: url('https://enchantmentenhancement.github.io/0.85/c_n.png'); 
     background-size: 100% auto; 
     font-size: 1px; }
+  .tile.tile--62 .tile-inner {
+    color: #ffffff;
+    background: #ffffff;
+    background-image: url('https://enchantmentenhancement.github.io/0.85/chereda.png'); 
+    background-size: 100% auto; 
+    font-size: 1px; }
 
 @-webkit-keyframes appear {
   0% {
