@@ -952,6 +952,30 @@ hr {
     background-image: url('https://enchantmentenhancement.github.io/0.85/chereda.png'); 
     background-size: 100% auto; 
     font-size: 1px; }
+  .tile.tile--63 .tile-inner {
+    color: #ffffff;
+    background: #ffffff; 
+    background-image: url('https://enchantmentenhancement.github.io/0.85/ColePVPs.png'); 
+    background-size: 100% auto; 
+    font-size: 1px; }
+  .tile.tile--64 .tile-inner {
+    color: #ffffff;
+    background: #ffffff;
+    background-image: url('https://enchantmentenhancement.github.io/0.85/Frightend.png'); 
+    background-size: 100% auto; 
+    font-size: 1px; }
+  .tile.tile--65 .tile-inner {
+    color: #ffffff;
+    background: #ffffff;
+    background-image: url('https://enchantmentenhancement.github.io/0.85/Rackals.png'); 
+    background-size: 100% auto; 
+    font-size: 1px; }
+  .tile.tile--66 .tile-inner {
+    color: #ffffff;
+    background: #ffffff;
+    background-image: url('https://enchantmentenhancement.github.io/0.85/Zewotaku.png'); 
+    background-size: 100% auto; 
+    font-size: 1px; }
 
 @-webkit-keyframes appear {
   0% {
