@@ -1012,6 +1012,18 @@ hr {
     background-image: url('https://enchantmentenhancement.github.io/0.85/Trno.png'); 
     background-size: 100% auto; 
     font-size: 1px; }
+  .tile.tile--73 .tile-inner {
+    color: #ffffff;
+    background: #ffffff;
+    background-image: url('https://enchantmentenhancement.github.io/0.85/pawtail.png'); 
+    background-size: 100% auto; 
+    font-size: 1px; }
+  .tile.tile--74 .tile-inner {
+    color: #ffffff;
+    background: #ffffff;
+    background-image: url('https://enchantmentenhancement.github.io/0.85/zitronenfalter 2.png'); 
+    background-size: 100% auto; 
+    font-size: 1px; }
 
 
 @-webkit-keyframes appear {
