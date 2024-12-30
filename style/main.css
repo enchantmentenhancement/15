@@ -580,6 +580,10 @@ hr {
   .tile.tile-82 .tile-inner {
     color: #e7cebd;
     background: #cd9d7c; }
+  .tile.tile-8282 .tile-inner {
+    color: #cd9d7c;
+    background: #e7cebd; 
+    font-size: 16px; }
   .tile.tile--1 .tile-inner {
     color: #ffffff;
     background: #ffffff;
